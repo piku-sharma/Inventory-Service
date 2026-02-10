@@ -10,4 +10,12 @@ public class ProductDTO {
 	private String productName;
 	private List<Long> batches;
 
+	public ProductDTO() {
+	}
+
+	public ProductDTO(String productName, List<Long> batches) {
+		this.productName = productName;
+		this.batches = batches;
+	}
+
 }
